@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Norvix SchoolOS Privacy Policy</title>
+<meta name="description" content="Privacy policy for Norvix SchoolOS version 1.0, an offline demo app for Android.">
+<style>
+  :root { --accent: #1d4ed8; --text: #1f2937; --muted: #4b5563; --bg: #ffffff; --line: #e5e7eb; --note: #eff6ff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --accent: #93c5fd; --text: #e5e7eb; --muted: #9ca3af; --bg: #0f172a; --line: #334155; --note: #1e293b; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 24px 16px 48px; color: var(--text); background: var(--bg); line-height: 1.7; }
+  h1 { color: var(--accent); margin-bottom: 4px; line-height: 1.25; }
+  h2 { color: var(--accent); margin-top: 36px; border-bottom: 1px solid var(--line); padding-bottom: 6px; font-size: 1.25rem; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); font-size: 0.95rem; margin-bottom: 24px; }
+  .note { background: var(--note); border-left: 4px solid var(--accent); padding: 12px 16px; border-radius: 4px; }
+  nav ol { columns: 2; padding-left: 20px; }
+  @media (max-width: 560px) { nav ol { columns: 1; } }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { width: 38%; }
+  footer { color: var(--muted); font-size: 0.85rem; margin-top: 48px; border-top: 1px solid var(--line); padding-top: 16px; text-align: center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Norvix SchoolOS Privacy Policy</h1>
+  <p class="meta"><strong>App:</strong> Norvix SchoolOS (Android, version 1.0) &middot; <strong>Effective date:</strong> October 29, 2026</p>
+</header>
+
+<main>
+<p class="note">Version 1.0 of Norvix SchoolOS is an <strong>offline demo</strong>. It shows fictional sample data that is packaged inside the app, and it does not send information to the developer or to any third party.</p>
+
+<nav aria-label="Contents">
+<ol>
+  <li><a href="#developer">Who we are</a></li>
+  <li><a href="#scope">Scope</a></li>
+  <li><a href="#information">Information the app handles</a></li>
+  <li><a href="#demo">Offline demo mode</a></li>
+  <li><a href="#authentication">Sign-in and backend</a></li>
+  <li><a href="#storage">Storage, retention and deletion</a></li>
+  <li><a href="#sharing">Sharing and third parties</a></li>
+  <li><a href="#children">Children and students</a></li>
+  <li><a href="#security">Security</a></li>
+  <li><a href="#permissions">Android permissions</a></li>
+  <li><a href="#changes">Changes to this policy</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ol>
+</nav>
+
+<section id="developer">
+<h2>1. Who we are</h2>
+<p>Norvix SchoolOS is published under the name <strong>Norvix</strong>. This page refers to the publisher as &ldquo;we&rdquo;. For questions about this policy, see <a href="#contact">Contact</a>.</p>
+</section>
+
+<section id="scope">
+<h2>2. Scope</h2>
+<p>This policy applies to Norvix SchoolOS for Android, version 1.0 (package <code>com.norvix.schoolos</code>). It describes how that release behaves. It does not cover any other app, website or future version that adds new features.</p>
+</section>
+
+<section id="information">
+<h2>3. Information the app handles</h2>
+<table>
+  <tr><th scope="row">Sample data bundled in the app</th><td>Names, classes, attendance, results, fees, messages and announcements for a fictional school. These records are packaged inside the app and are not about real people. They are read on your device and are never uploaded.</td></tr>
+  <tr><th scope="row">Information you enter</th><td>The start screen shows a username and password form. In this version, nothing typed there is sent anywhere or saved (see <a href="#authentication">Sign-in and backend</a>). The demo screens are read-only, so you cannot add or change records.</td></tr>
+  <tr><th scope="row">Information stored on your device</th><td>One small setting: the identifier of the sample demo profile you last opened (for example, the sample teacher, student or parent profile). It does not identify you.</td></tr>
+  <tr><th scope="row">Information sent over a network</th><td>None by the app&rsquo;s own code in this release. The release build is configured without a server address, so it has nowhere to send data.</td></tr>
+  <tr><th scope="row">Third-party SDKs</th><td>The app includes no advertising, analytics, crash-reporting or attribution SDKs. See <a href="#sharing">Sharing and third parties</a>.</td></tr>
+</table>
+</section>
+
+<section id="demo">
+<h2>4. Offline demo mode</h2>
+<p>From the start screen you can choose <strong>Explore Demo App</strong>, then pick the Teacher, Student or Parent role. You can then browse the app using the bundled sample data. This works without an account and without an internet connection.</p>
+<p>Your interactions in the demo, such as opening screens, are not saved, other than the demo profile setting described below. Actions that would change data are not performed in the demo.</p>
+</section>
+
+<section id="authentication">
+<h2>5. Sign-in and backend</h2>
+<p>Version 1.0 does not require a school backend or a live account. The start screen still displays a username and password form. In this version, submitting it only shows a message that school-account sign-in is not available yet. Nothing you type is transmitted or stored, and no account can be created.</p>
+<p>A future version may add school-account sign-in. Before it is released, we will update this policy and the information we provide in Google Play.</p>
+</section>
+
+<section id="storage">
+<h2>6. Storage, retention and deletion</h2>
+<ul>
+  <li>The demo profile identifier is kept on your device in Android&rsquo;s encrypted storage (through the Expo SecureStore library). The app configures it to be left out of Android cloud backup and device-to-device transfer.</li>
+  <li>It is removed when you choose <strong>Exit demo</strong> in the app, when you clear the app&rsquo;s storage in Android settings, or when you uninstall the app.</li>
+  <li>We hold no server-side record about you, because this version has no accounts and sends us no data. There is nothing for us to delete on a server.</li>
+</ul>
+</section>
+
+<section id="sharing">
+<h2>7. Sharing and third-party services</h2>
+<p>We do not receive information from the app, so we do not share any. The app is built with open-source libraries (such as React Native and Expo) that run on your device. Our review of the app&rsquo;s dependencies found no library that sends data to a third party in this release. Google Play and your device manufacturer may collect their own information under their own privacy policies when you install or update the app.</p>
+</section>
+
+<section id="children">
+<h2>8. Children and students</h2>
+<p>Norvix SchoolOS is school-management software for teachers, parents and students. The demo includes a sample Student portal so you can see what that view looks like. The app is intended for users aged 13 and over and is not directed to children under 13. Because this version collects no personal information from anyone, it collects none from students or children. All student records shown are fictional.</p>
+</section>
+
+<section id="security">
+<h2>9. Security</h2>
+<p>Because this version sends no personal information, there is little to protect in transit. The one stored setting is kept in Android&rsquo;s encrypted storage. No method of storage or electronic transmission is completely secure, and we cannot guarantee absolute security.</p>
+</section>
+
+<section id="permissions">
+<h2>10. Android permissions</h2>
+<table>
+  <tr><th scope="row"><code>INTERNET</code></th><td>Standard permission included by the app framework. This version makes no network requests of its own.</td></tr>
+  <tr><th scope="row"><code>ACCESS_NETWORK_STATE</code></th><td>Added by framework libraries to check connectivity. No personal data is involved.</td></tr>
+  <tr><th scope="row"><code>VIBRATE</code></th><td>Added by the app framework&rsquo;s defaults. It gives no access to data.</td></tr>
+</table>
+<p>The app does not request location, camera, microphone, contacts, photos, files, or any other permission that asks you at runtime.</p>
+</section>
+
+<section id="changes">
+<h2>11. Changes to this policy</h2>
+<p>If we change this policy, we will update this page and its effective date. We will do so before releasing any version that handles personal information differently from what is described here.</p>
+</section>
+
+<section id="contact">
+<h2>12. Contact</h2>
+<p>Questions or requests about this policy: <a href="mailto:pawankushwaha.pk@gmail.com">pawankushwaha.pk@gmail.com</a></p>
+</section>
+</main>
+
+<footer>Norvix SchoolOS Privacy Policy &middot; Effective October 29, 2026</footer>
+</body>
+</html>
